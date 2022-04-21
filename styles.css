@@ -14,6 +14,7 @@
    
 
 body{
+  display: grid;
   font-family: 'Press Start 2P', cursive;
 }
 
@@ -27,6 +28,7 @@ h1{
     display: block;
     color: #00000070;
     font-family: 'Press Start 2P', cursive;
+    text-decoration: underline;
 };
 
 /* unvisited link */
@@ -58,17 +60,14 @@ a:active {
 col {
   padding-top: 10%;
 }  
-.card {
-  
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
-    width: 30rem;
 
-}
+.card{
 
-
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  width: 30rem;
+  }
 
 
 
